@@ -1,0 +1,12 @@
+2024-06-14 17:04:12.587 [info] Latency measurements for ssh-remote+192.17.100.117 backend
+window<->ptyhostservice<->ptyhost: 48.10ms
+ptyhostservice<->ptyhost: 4.03ms []
+2024-06-14 17:04:12.588 [info] Latency measurements for ssh-remote+192.17.100.117 backend
+window<->ptyhostservice<->ptyhost: 47.80ms
+ptyhostservice<->ptyhost: 3.48ms []
+2024-06-14 17:04:12.588 [info] Latency measurements for ssh-remote+192.17.100.117 backend
+window<->ptyhostservice<->ptyhost: 47.60ms
+ptyhostservice<->ptyhost: 3.00ms []
+2024-06-14 17:04:12.589 [info] Latency measurements for ssh-remote+192.17.100.117 backend
+window<->ptyhostservice<->ptyhost: 49.10ms
+ptyhostservice<->ptyhost: 4.00ms []

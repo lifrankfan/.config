@@ -1,0 +1,204 @@
+[14:26:05.810] Log Level: 2
+[14:26:05.815] SSH Resolver called for "ssh-remote+192.17.100.117", attempt 1
+[14:26:05.816] "remote.SSH.useLocalServer": true
+[14:26:05.816] "remote.SSH.useExecServer": true
+[14:26:05.816] "remote.SSH.path": undefined
+[14:26:05.816] "remote.SSH.configFile": undefined
+[14:26:05.816] "remote.SSH.useFlock": true
+[14:26:05.816] "remote.SSH.lockfilesInTmp": false
+[14:26:05.816] "remote.SSH.localServerDownload": auto
+[14:26:05.816] "remote.SSH.remoteServerListenOnSocket": false
+[14:26:05.817] "remote.SSH.showLoginTerminal": false
+[14:26:05.817] "remote.SSH.defaultExtensions": []
+[14:26:05.817] "remote.SSH.loglevel": 2
+[14:26:05.817] "remote.SSH.enableDynamicForwarding": true
+[14:26:05.817] "remote.SSH.enableRemoteCommand": false
+[14:26:05.817] "remote.SSH.serverPickPortsFromRange": {}
+[14:26:05.817] "remote.SSH.serverInstallPath": {}
+[14:26:05.823] VS Code version: 1.89.1
+[14:26:05.823] Remote-SSH version: remote-ssh@0.110.1
+[14:26:05.823] linux x64
+[14:26:05.825] SSH Resolver called for host: 192.17.100.117
+[14:26:05.825] Setting up SSH remote "192.17.100.117"
+[14:26:05.827] Acquiring local install lock: /tmp/vscode-remote-ssh-cc092e3f-install.lock
+[14:26:05.829] Looking for existing server data file at /home/lifrankfan/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-cc092e3f-dc96b837cf6bb4af9cd736aa3af08cf8279f7685-0.110.1-es/data.json
+[14:26:05.830] Using commit id "dc96b837cf6bb4af9cd736aa3af08cf8279f7685" and quality "stable" for server
+[14:26:05.832] Install and start server if needed
+[14:26:05.835] PATH: /home/lifrankfan/.local/bin:/home/lifrankfan/bin:/home/lifrankfan/.config/emacs/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin
+[14:26:05.835] Checking ssh with "ssh -V"
+[14:26:05.843] > OpenSSH_9.6p1, OpenSSL 3.2.1 30 Jan 2024
+
+[14:26:05.847] askpass server listening on /run/user/1000/vscode-ssh-askpass-17122d621c9ecf8458699c2676767afd421803f1.sock
+[14:26:05.848] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-02c75d7b48cbcb74086e05dee801053262bc3d30.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","32977","-o","ConnectTimeout=15","192.17.100.117"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/lifrankfan/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-cc092e3f-dc96b837cf6bb4af9cd736aa3af08cf8279f7685-0.110.1-es/data.json"}
+[14:26:05.848] Local server env: {"SHELL":"/bin/bash","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/lifrankfan/.vscode/extensions/ms-vscode-remote.remote-ssh-0.110.1/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/usr/share/code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/lifrankfan/.vscode/extensions/ms-vscode-remote.remote-ssh-0.110.1/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-17122d621c9ecf8458699c2676767afd421803f1.sock"}
+[14:26:05.852] Spawned 4641
+[14:26:05.952] > local-server-1> Running ssh connection command: ssh -v -T -D 32977 -o ConnectTimeout=15 192.17.100.117
+[14:26:05.954] > local-server-1> Spawned ssh, pid=4650
+[14:26:05.959] stderr> OpenSSH_9.6p1, OpenSSL 3.2.1 30 Jan 2024
+[14:26:06.014] stderr> debug1: Server host key: ssh-ed25519 SHA256:e74rhCnfQ5xRJ6Q0ruRq6QixOm8YTlkzQE6BFtO+XIY
+[14:26:06.195] Got askpass request: {"request":" lifan3@192.17.100.117's password:"}
+[14:26:06.196] Showing password prompt
+[14:26:06.197] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-e445843dff8f1ca2a4b4586be6d592200f6ac3fe.sock
+[14:26:06.197] Writing password prompt to globalState
+[14:26:10.606] Got password response
+[14:26:10.606] Interactor gave response: ******
+[14:26:10.607] Cleaning up other-window auth server
+[14:26:10.927] stderr> Authenticated to 192.17.100.117 ([192.17.100.117]:22) using "password".
+[14:26:12.921] > Welcome to Ubuntu 22.04.4 LTS (GNU/Linux 5.15.0-1021-bluefield aarch64)
+> 
+>  * Documentation:  https://help.ubuntu.com
+>  * Management:     https://landscape.canonical.com
+>  * Support:        https://ubuntu.com/pro
+> 
+>  System information as of Thu Jun 13 14:26:11 CDT 2024
+> 
+>   System load:               0.06
+>   Usage of /:                85.4% of 37.90GB
+>   Memory usage:              63%
+>   Swap usage:                0%
+>   Processes:                 252
+>   Users logged in:           0
+>   IPv4 address for oob_net0: 192.17.100.117
+>   IPv6 address for oob_net0: 2620:0:e00:550b:ba3f:d2ff:fe6a:6544
+> 
+>   => / is using 85.4% of 37.90GB
+> 
+>  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+>    just raised the bar for easy, resilient and secure K8s cluster deployment.
+> 
+>    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+> 
+> Expanded Security Maintenance for Applications is not enabled.
+> 
+> 4 updates can be applied immediately.
+> 3 of these updates are standard security updates.
+> To see these additional updates run: apt list --upgradable
+> 
+> 9 additional security updates can be applied with ESM Apps.
+> Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+> 
+> 
+> *** System restart required ***
+[14:26:13.031] > ready: b295a166b873
+[14:26:13.041] > Linux 5.15.0-1021-bluefield #23-Ubuntu SMP Fri Aug 4 18:24:48 UTC 2023
+[14:26:13.042] Platform: linux
+[14:26:13.046] > /bin/bash
+[14:26:13.046] Shell: bash
+[14:26:13.046] Creating bash subshell inside "bash"
+[14:26:13.055] > bash version:  5.1.16(1)-release
+[14:26:13.075] > b295a166b873: running
+[14:26:13.104] > Found existing installation at /home/lifan3/.vscode-server...
+[14:26:13.108] > Starting VS Code CLI... "/home/lifan3/.vscode-server/code-dc96b837cf6bb4af9cd736aa3af08cf8279f7685" command-shell --cli-data-dir "/home/lifan3/.vscode-server/cli" --on-port --parent-process-id 3645868 &> "/home/lifan3/.vscode-server/.cli.dc96b837cf6bb4af9cd736aa3af08cf8279f7685.log" < /dev/null
+> printenv:
+>     SHELL=/bin/bash
+>     PKG_CONFIG_PATH=:/opt/mellanox/doca/lib/aarch64-linux-gnu/pkgconfig:/opt/mellanox/flexio/lib/pkgconfig:/opt/mellanox/grpc/lib/pkgconfig:/opt/mellanox/dpdk/lib/aarch64-linux-gnu/pkgconfig
+>     PWD=/home/lifan3
+>     LOGNAME=lifan3
+>     XDG_SESSION_TYPE=tty
+>     MODULESHOME=/usr/share/modules
+>     MANPATH=:
+>     MOTD_SHOWN=pam
+>     HOME=/home/lifan3
+>     LANG=C.UTF-8
+>     VSCODE_AGENT_FOLDER=/home/lifan3/.vscode-server
+>     SSH_CONNECTION=10.195.214.90 43956 192.17.100.117 22
+>     XDG_SESSION_CLASS=user
+>     LIBVIRT_DEFAULT_URI=qemu:///system
+>     USER=lifan3
+>     LOADEDMODULES=
+>     SHLVL=1
+>     XDG_SESSION_ID=1596
+>     XDG_RUNTIME_DIR=/run/user/1001
+>     SSH_CLIENT=10.195.214.90 43956 22
+>     PATH=/home/lifan3/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/mellanox/doca/tools/:/opt/mellanox/grpc/bin
+>     MODULEPATH=/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles
+>     DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+>     MODULES_CMD=/usr/lib/aarch64-linux-gnu/modulecmd.tcl
+>     BASH_FUNC_ml%%=() {  module ml "$@"
+>     }
+>     BASH_FUNC_module%%=() {  eval `/usr/bin/tclsh8.6 /usr/lib/aarch64-linux-gnu/modulecmd.tcl bash "$@"`;
+>      _mlstatus=$?;
+>      return $_mlstatus
+>     }
+>     _=/usr/bin/printenv
+[14:26:13.114] > Removing old logfile at /home/lifan3/.vscode-server/.cli.dc96b837cf6bb4af9cd736aa3af08cf8279f7685.log
+[14:26:13.135] > Spawned remote CLI: 3645887
+[14:26:13.149] > Waiting for server log...
+[14:26:13.221] > Waiting for server log...
+[14:26:13.262] > b295a166b873: start
+> SSH_AUTH_SOCK====
+> DISPLAY====
+> listeningOn==127.0.0.1:37057==
+> osReleaseId==ubuntu==
+> arch==aarch64==
+[14:26:13.265] > vscodeArch==arm64==
+> bitness==64==
+> tmpDir==/run/user/1001==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> serverStartTime==148==
+> execServerToken==1aaaa1a1-111a-111a-aa11-11111111aaa1==
+> b295a166b873: end
+[14:26:13.265] Received install output: 
+SSH_AUTH_SOCK====
+DISPLAY====
+listeningOn==127.0.0.1:37057==
+osReleaseId==ubuntu==
+arch==aarch64==vscodeArch==arm64==
+bitness==64==
+tmpDir==/run/user/1001==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+serverStartTime==148==
+execServerToken==1aaaa1a1-111a-111a-aa11-11111111aaa1==
+
+[14:26:13.267] Remote server is listening on port 37057
+[14:26:13.267] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":37057},"osReleaseId":"ubuntu","arch":"aarch64","sshAuthSock":"","display":"","tmpDir":"/run/user/1001","platform":"linux","execServerToken":"1aaaa1a1-111a-111a-aa11-11111111aaa1"},"serverStartTime":148,"installUnpackCode":""}
+[14:26:13.268] ** Note: Support for architecture "aarch64" is in preview **
+[14:26:13.270] Persisting server connection details to /home/lifrankfan/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-cc092e3f-dc96b837cf6bb4af9cd736aa3af08cf8279f7685-0.110.1-es/data.json
+[14:26:13.277] Starting forwarding server. local port 36021 -> socksPort 32977 -> remotePort 37057
+[14:26:13.277] Forwarding server listening on port 36021
+[14:26:13.278] Waiting for ssh tunnel to be ready
+[14:26:13.279] [Forwarding server port 36021] Got connection 0
+[14:26:13.281] Tunneled port 37057 to local port 36021
+[14:26:13.281] Resolved "ssh-remote+192.17.100.117" to "port 36021"
+[14:26:13.289] Initizing new exec server for ssh-remote+192.17.100.117
+[14:26:13.289] Resolving exec server at port 36021
+[14:26:13.344] [Forwarding server port 36021] Got connection 1
+[14:26:13.462] Exec server for ssh-remote+192.17.100.117 created and cached
+[14:26:13.471] ------
+
+
+
+
+[14:26:13.489] [server] Checking /home/lifan3/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt and /home/lifan3/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt for a running server...
+[14:26:13.497] [server] Installing and setting up Visual Studio Code Server...
+[14:26:13.497] [server] Server setup complete
+[14:26:13.497] [server] Starting server...
+[14:26:13.497] [server] Starting server with command... Command { std: "/home/lifan3/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/code-server" "--connection-token=remotessh" "--accept-server-license-terms" "--start-server" "--enable-remote-auto-shutdown" "--socket-path=/tmp/code-9d45d3e4-ecf1-4686-9176-1bc75da523f2", kill_on_drop: false }
+[14:26:13.715] [server] *
+[14:26:13.716] [server] * Visual Studio Code Server
+[14:26:13.720] [server] *
+[14:26:13.721] [server] * By using the software, you agree to
+[14:26:13.721] [server] * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[14:26:13.721] [server] * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[14:26:13.721] [server] *
+[14:26:13.729] [server] Server bound to /tmp/code-9d45d3e4-ecf1-4686-9176-1bc75da523f2
+[14:26:13.730] [server] Extension host agent listening on /tmp/code-9d45d3e4-ecf1-4686-9176-1bc75da523f2
+[14:26:13.731] [server] parsed location: "/tmp/code-9d45d3e4-ecf1-4686-9176-1bc75da523f2"
+[14:26:13.732] [server] 
+[14:26:13.732] [server] Server started
+[14:26:14.212] [server] [14:26:14] 
+[14:26:14.253] [server] 
+[14:26:14.254] [server] 
+[14:26:14.254] [server] 
+[14:26:14.300] [server] [14:26:14] Extension host agent started.
+[14:26:14.472] [server] [14:26:14] [<unknown>][5b15253c][ManagementConnection] New connection established.
+[14:26:14.519] [server] [14:26:14] [<unknown>][440eed46][ExtensionHostConnection] New connection established.
+[14:26:15.645] [server] [14:26:15] [<unknown>][440eed46][ExtensionHostConnection] <3646121> Launched Extension Host Process.

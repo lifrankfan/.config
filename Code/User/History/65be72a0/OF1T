@@ -1,0 +1,65 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### Minimal - Long ### //
+
+{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+// "mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 6,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+// "width": 1444,
+
+"modules-left": [
+	"custom/menu",
+	"custom/separator#dot-line",
+	"hyprland/workspaces#pacman",
+	"custom/separator#dot-line",
+	"tray",
+	"custom/separator#dot-line",
+	"mpris",
+	"wlr/taskbar"
+],
+"modules-center": [
+	"custom/cava_mviz",
+	"clock",
+	"custom/swaync"
+],
+
+"modules-right": [
+	// "group/motherboard",
+	// "custom/separator#dot-line",
+	"group/laptop",
+	"custom/separator#dot-line",
+	"group/audio",
+	"custom/separator#dot-line",
+	"idle_inhibitor",
+	"custom/power"
+	],
+
+"wlr/taskbar": {
+	"format": "{icon}",
+	//"icon-size": 14,
+	//"icon-theme": "Numix-Circle",
+	"tooltip-format": "{title}",
+	"on-click": "activate",
+	"on-click-middle": "close",
+	"ignore-list": [
+	    "kitty"
+		],
+		"app_ids-mapping": {
+		  "firefoxdeveloperedition": "firefox-developer-edition"
+		},
+		"rewrite": {
+			"Firefox Web Browser": "Firefox",
+			"Foot Server": "Terminal"
+		}
+	}
+}

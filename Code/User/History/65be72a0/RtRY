@@ -1,0 +1,42 @@
+{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 6,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-left": [
+	"custom/menu",
+	"custom/separator#dot-line",
+	"hyprland/workspaces",
+	"custom/separator#dot-line",
+	"hyprland/window"
+],
+"modules-center": [
+	"custom/cava_mviz",
+	"clock",
+	"custom/swaync",
+	"custom/playerctl"
+],
+
+"modules-right": [
+	"tray",
+	"bluetooth",
+	"custom/separator#dot-line",
+	"group/audio",
+	"custom/separator#dot-line",
+	"group/laptop",
+	"custom/separator#dot-line",
+	"group/motherboard",
+	"custom/separator#dot-line",
+	"idle_inhibitor",
+	"custom/lock",
+	"custom/power"
+	]
+}

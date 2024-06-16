@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    margin: 0%;
+    border-bottom: outset;
+    border-color: black;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    margin: 0%;
+    text-decoration: none; /* remove underline */
+}
+
+.navbar a.navbar-brand {
+    float: left;
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /* align-items: top;  */
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pfp {
+    width: 320px;
+    height: 426px;
+    margin: 0;
+}
+
+.content, .profile .interests {
+    margin: 50px 100px;
+}
+
+.content {
+    font-size: 20px;
+}

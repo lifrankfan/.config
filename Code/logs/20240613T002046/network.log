@@ -1,0 +1,11 @@
+2024-06-13 00:24:00.070 [error] electron #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:24:10.321 [error] electron #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:24:15.570 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/dc96b837cf6bb4af9cd736aa3af08cf8279f7685 - error undefined net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:24:15.575 [error] electron #4: https://update.code.visualstudio.com/api/update/linux-x64/stable/dc96b837cf6bb4af9cd736aa3af08cf8279f7685 - error undefined net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:27:05.569 [error] electron #5: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:27:05.570 [error] electron #6: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:30:16.069 [error] electron #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:30:16.070 [error] electron #8: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:32:14.570 [error] electron #9: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:33:26.569 [error] electron #10: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-06-13 00:33:26.570 [error] electron #11: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
