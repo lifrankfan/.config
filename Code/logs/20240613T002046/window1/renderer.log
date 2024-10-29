@@ -1,9 +1,0 @@
-2024-06-13 00:20:48.092 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/lifrankfan/.config/waybar/style/style.css","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2024-06-13 00:20:48.923 [info] Started local extension host with pid 32225.
-2024-06-13 00:20:49.019 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
-package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
-product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
-2024-06-13 00:20:52.186 [error] [/home/lifrankfan/.vscode/extensions/github.copilot-chat-0.16.0]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
-2024-06-13 00:20:52.204 [error] [/home/lifrankfan/.vscode/extensions/github.copilot-chat-0.16.1]: Extension is not compatible with Code 1.89.1. Extension requires: ^1.90.0.
-2024-06-13 00:20:52.205 [warning] [remote-ssh]: Couldn't find message for key setting.usseExecServer.description.
-2024-06-13 00:24:16.178 [info] [perf] Render performance baseline is 40ms
